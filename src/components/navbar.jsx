@@ -9,15 +9,18 @@ function Navbar() {
     //cuando esta true lo pasa a false y vice versa
     setClicked(!clicked)
   }
+
     return (
     <>
+      <style>@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Teko:wght@300..700&display=swap')</style>
+      
       <NavContainer>
         <h2>ElBuen<span>Parker</span></h2>
         <div className={`links ${clicked ? 'active' : ''}`}>
-          <button onClick={handleClick} href="#h" className="BntNav">Inicio</button>
-          <button onClick={handleClick} href="#h" className="BntNav">portafolio</button>
-          <button onClick={handleClick} href="#h" className="BntNav">Acerca de mi</button>
-          <button onClick={handleClick} href="#h" className="BntNav">Contacto</button>
+        <a onClick={handleClick} href="#h">inicio</a>
+          <a onClick={handleClick} href="#h">Portafolio</a>
+          <a onClick={handleClick} href="#h">Acerca de mi</a>
+          <a onClick={handleClick} href="#h">Contacto</a>
         </div>
         <div className='burguer'>
           <BurguerButton clicked={clicked} handleClick={handleClick} />
@@ -34,18 +37,27 @@ const NavContainer = styled.nav`
   h2{
     color: black;
     font-weight: 400;
+    font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
     span{
       font-weight: bold;
+      font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
     }
   }
   padding: .4rem;
   border: 2px solid #264143;
   border-radius: 5px;
   box-shadow: 3px 4px 0px 1px #000000;
-  background-color: #D1D1D1;
+  background-color: #ffff;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  a{
+    color: #000000;
+    text-decoration: none;
+    margin-right: 1rem;
+  }
 
   .links{
     position: absolute;
@@ -56,10 +68,23 @@ const NavContainer = styled.nav`
     margin-right: auto;
     text-align: center;
     transition: all .5s ease;
+    a{
+      color: #000000;
+      text-decoration: none;
+      margin-right: 1rem;
+      font-family: "Carter One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+    }
  
     @media(min-width: 768px){
       position: initial;
       margin: 0;
+      a{
+        color: #000000;
+        text-decoration: none;
+        margin-right: 1rem;
+      }
   
       display: block;
     }
@@ -74,6 +99,11 @@ const NavContainer = styled.nav`
     left: 0;
     right: 0;
     text-align: center;
+    a{
+      color: #000000;
+      text-decoration: none;
+      margin-right: 1rem;
+    }
   
   }
   .burguer{
@@ -81,35 +111,12 @@ const NavContainer = styled.nav`
       display: none;
     }
   }
-  .BntNav {
-    background-color: white;
-    color: black;
-    margin: 5px;
-    border-radius: .4em;
-    font-size: 17px;
-    font-weight: 600;
-    padding: 1em 2em;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-    border: 1px solid black;
-    box-shadow: 0 0 0 0 black;
-  }
-  
-  .BntNav:hover {
-    transform: translateY(-4px) translateX(-2px);
-    box-shadow: 2px 5px 0 0 black;
-  };
-  
-  .BntNav:active {
-    transform: translateY(2px) translateX(1px);
-    box-shadow: 0 0 0 0 black;
-  };
 `
 
 const BgDiv = styled.div`
   border: 2px solid #264143;
   box-shadow: 3px 4px 0px 1px #000000;
-  background-color: #D1D1D1;
+  background-color: #ffff;
   position: absolute;
   top: -1000px;
   left: -1000px;
