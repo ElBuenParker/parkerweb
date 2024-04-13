@@ -25,6 +25,10 @@ const Footer = () => {
 
 
 const FooterContainer = styled.div`
+  padding: .4rem;
+  border: 2px solid #264143;
+  border-radius: 5px;
+  box-shadow: 3px 4px 0px 1px #000000;
   background-color: #dddd;
   color: #fff;
   display: flex;

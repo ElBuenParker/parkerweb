@@ -1,27 +1,48 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import styled from 'styled-components'
 import BurguerButton from './BurguerButton'
+import { Outlet, Link, useNavigate } from "react-router-dom"
+
 
 function Navbar() {
+  const links = [
+    {
+      name:"Home",
+      href:"/home",
+    },
+    {
+      name:"About",
+      href:"/about",
+    },
+    {
+      name:"Portafolio",
+      href:"/portafolio",
+    },
+    {
+      name:"Contact",
+      href:"/contact",
+    },
 
+  ];
+
+  const navigate = useNavigate();
+  const navigateToMain = async () => {
+    navigate("/Home/")
+}
   const [clicked, setClicked] = useState(false)
   const handleClick = () => {
     //cuando esta true lo pasa a false y vice versa
     setClicked(!clicked)
   }
-
     return (
     <>
       <style>@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Teko:wght@300..700&display=swap')</style>
-      
       <NavContainer>
         <h2>ElBuen<span>Parker</span></h2>
-        <div className={`links ${clicked ? 'active' : ''}`}>
-        <a onClick={handleClick} href="#h">inicio</a>
-          <a onClick={handleClick} href="#h">Portafolio</a>
-          <a onClick={handleClick} href="#h">Acerca de mi</a>
-          <a onClick={handleClick} href="#h">Contacto</a>
-        </div>
+        <div onClick={handleClick} className={`links ${clicked ? 'active' : ''}`}>{links.map((x)=> (
+            <Link to={x.href}>{x.name}</Link>
+          ))}
+          </div>
         <div className='burguer'>
           <BurguerButton clicked={clicked} handleClick={handleClick} />
         </div>
