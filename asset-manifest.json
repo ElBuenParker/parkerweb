@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/parkerweb/static/css/main.ccdc2f51.css",
-    "main.js": "/parkerweb/static/js/main.cdb54d71.js",
+    "main.css": "/parkerweb/static/css/main.f84bd98b.css",
+    "main.js": "/parkerweb/static/js/main.45bb000c.js",
     "static/js/453.9ac09ce1.chunk.js": "/parkerweb/static/js/453.9ac09ce1.chunk.js",
     "index.html": "/parkerweb/index.html",
-    "main.ccdc2f51.css.map": "/parkerweb/static/css/main.ccdc2f51.css.map",
-    "main.cdb54d71.js.map": "/parkerweb/static/js/main.cdb54d71.js.map",
+    "main.f84bd98b.css.map": "/parkerweb/static/css/main.f84bd98b.css.map",
+    "main.45bb000c.js.map": "/parkerweb/static/js/main.45bb000c.js.map",
     "453.9ac09ce1.chunk.js.map": "/parkerweb/static/js/453.9ac09ce1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ccdc2f51.css",
-    "static/js/main.cdb54d71.js"
+    "static/css/main.f84bd98b.css",
+    "static/js/main.45bb000c.js"
   ]
 }
