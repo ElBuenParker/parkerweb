@@ -19,17 +19,15 @@ const ImageContainer = styled.div`
 `;
 
 const Image = styled.img`
-  width: 100%;
-  height: auto;
+  width: 100px;
+  height: 100px;
 `;
 
 const Home = () => {
   return (
     <MainContainer>
       <Title>about me</Title>
-      <ImageContainer>
-        <Image src="https://example.com/image.jpg" alt="Imagen de ejemplo" />
-      </ImageContainer>
+    
     </MainContainer>
   );
 };
