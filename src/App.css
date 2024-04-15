@@ -1,12 +1,18 @@
 .App {
   text-align: center;
+  z-index: -5;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Footer{
+justify-content:center;
 }
+.inicio{
 
+}
+.Svg{
+margin-top: 10%;
+margin-left: 100px;
+z-index: -2;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

@@ -54,6 +54,7 @@ const FooterLink = styled.a`
   text-decoration: none;
   margin: 10px;
   font-family: "Teko", sans-serif;
+  z-index: 0;
 
 `;
 

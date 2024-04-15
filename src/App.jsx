@@ -10,6 +10,7 @@ import About from './pages/About.jsx';
 import Portafolio from './pages/Portafolio';
 import Contact from './pages/Contact.jsx';
 import ParkerSvg from './components/ParkerSvg.jsx';
+import { Sidebar } from './components/Sidebar.jsx';
 
 
 
@@ -18,23 +19,21 @@ function App() {
     <>
      <div className="App">
      <Navbar/>
-     <div className='inicio'>
-      <ParkerSvg></ParkerSvg>
-     </div>
-
+     <main className='inicio'>
+      <ParkerSvg className='Svg'/>
       <Routes>
             <Route path='/home' element={<Home/>}/>
             <Route path='/portafolio' element={<Portafolio/>}/>
             <Route path='/about' element={<About/>}/>
             <Route path='/contact' element={<Contact/>}/>
       </Routes>
-
+      <Footer className='Footer'/>
       
+     </main>
+ 
     </div>
 		
-    <Footer />
-
-    
+  
    
     </>
     

@@ -1,13 +1,10 @@
 import * as React from "react"
 import { useEffect } from "react";
-
-
 //svg
 const ParkerSvg = (props) => {
   let cursorPos = { x: 0, y: 0 };
 let windowWidth = window.innerWidth;
 let windowHeight = window.innerHeight;
-
 
 const seguirCursor = (el, xrelacion, yrelacion) => {
     const elOffset = el.getBoundingClientRect();
@@ -45,8 +42,6 @@ const seguirCursor = (el, xrelacion, yrelacion) => {
     if (pupila2) seguirCursor(pupila2, 2, 2);
     if (nariz) seguirCursor(nariz, 4, 4);
   };
-
-
   useEffect(() => {
     window.addEventListener("resize", definirTamaPantalla);
   window.addEventListener("mousemove", mouseMove);
