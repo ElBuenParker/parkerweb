@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Footer = () => {
+const Footer  = () => {
     return (
         
-      <FooterContainer>
+      <FooterContainer >
         <style>@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Teko:wght@300..700&display=swap')</style>
 
         <FooterText>Copyright © 2024 My Website</FooterText>

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Teko:wght@300..700&display=swap');
+
+.bubble {
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-family: "Carter One", system-ui;
+    background-color: #ffffff;
+    padding: 4%;
+    width: 40%;
+    margin-left: 45%;
+    text-align: center;
+    border-radius: 80px;
+    border: 2px solid #264143;
+    box-shadow: 3px 4px 0px 1px #000000;
+    font-size: 30px;
+    animation-name: animation;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+.bubbleInicio{
+    position: relative;
+    animation-name: animationBubble;
+    animation-duration: 2s;
+
+}
+@keyframes animationBubble {
+    0% {right:-900px}
+    100%{right: 0px}   
+}
+
+.bubble::before {
+    border: 2px solid #000000;
+    box-shadow: 3px 4px 0px 1px #000000;
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 100px;
+    position: absolute;
+    bottom: -40px;
+    left: 60px;
+    z-index: -2;
+}
+    .bubble::after {
+        border: 2px solid #000000;
+        box-shadow: 3px 4px 0px 1px #000000;
+        content: "";
+        display: block;
+        width: 30px;
+        height: 30px;
+        background-color: #ffffff;
+        border-radius: 100px;
+        position: absolute;
+        bottom: -68px;
+        left: 50px;
+        z-index: -5;
+}
+@keyframes animation {
+    0% {top:0}
+    50%{top:8px}
+    100% {top:0px}
+    
+}
+.Svg{
+    position: relative;
+    margin-left: -30%;
+    margin-top: -10%;
+    animation-name: inicio;
+    animation-duration: 2s;
+
+}
+@keyframes inicio {
+    0% {left:-900px}
+    100%{left:0px}
+    
+}
+
+.presentacion{
+    position: relative;
+    flex-wrap: wrap;
+}
+.screen{
+    position: relative;
+}
+

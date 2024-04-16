@@ -1,5 +1,9 @@
 import React from "react";
 import styled from "styled-components";
+import ParkerSvg from "../components/ParkerSvg";
+import '../styles/bubble.css'
+
+
 
 const MainContainer = styled.div`
   display: flex;
@@ -27,6 +31,9 @@ const Home = () => {
   return (
     <MainContainer>
       <Title>about me</Title>
+      
+      <ParkerSvg className='Svg'/>
+
     
     </MainContainer>
   );

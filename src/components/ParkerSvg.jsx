@@ -63,7 +63,7 @@ const seguirCursor = (el, xrelacion, yrelacion) => {
 
   return (
   <svg
-    height={300}
+    height={500}
     viewBox="0 0 1080 1080"
     {...props}
     

@@ -1,5 +1,9 @@
 import React from "react";
 import styled from "styled-components";
+import ParkerSvg from "../components/ParkerSvg";
+import '../styles/bubble.css'
+
+
 
 const MainContainer = styled.div`
   display: flex;
@@ -27,6 +31,8 @@ const Contact = () => {
   return (
     <MainContainer>
       <Title>Contacto</Title>
+      <ParkerSvg className='Svg'/>
+
       <ImageContainer>
         <Image src="https://example.com/image.jpg" alt="Imagen de ejemplo" />
       </ImageContainer>

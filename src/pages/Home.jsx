@@ -1,11 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 import ParkerSvg from "../components/ParkerSvg";
+import '../styles/bubble.css'
 
 
 const MainContainer = styled.div`
-  display: flex;
-  flex-direction: column;
+  display:flex;
   align-items: center;
   padding: 20px;
  
@@ -16,10 +16,20 @@ const Title = styled.h1`
   color: #3f51b5;
 `;
 
+
 const Home = () => {
   return (
     <MainContainer>
-      <Title>My home</Title>
+      <div className="screen">
+        <section className="presentacion">
+          <div className="bubbleInicio">
+          <div className="bubble">Hola, mi nombre es Alexis, soy desarrollador Front-End e Ingenieron en Computación.</div>
+
+          </div>
+          <ParkerSvg className='Svg'/>
+        </section>
+      </div>
+      
 
     </MainContainer>
   );

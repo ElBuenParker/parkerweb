@@ -130,7 +130,7 @@ const NavContainer = styled.nav`
   
   }
   .burguer{
-    @media(min-width: 1920px){
+    @media(min-width: none){
       display: none;
     }
     z-index: 2;
@@ -142,7 +142,7 @@ const BgDiv = styled.div`
   box-shadow: 3px 4px 0px 1px #000000;
   background-color: #ffff;
   position: absolute;
-  top: -1000px;
+  top: -4000px;
   left: -1000px;
   width: 100%;
   height: 100%;

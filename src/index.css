@@ -18,6 +18,8 @@ body {
     ),
     linear-gradient(#060505 0.1em, transparent 0.1em);
   background-size: 100% 30px;
+  position: relative;
+  min-height: 100vh;
 }
 
 code {
