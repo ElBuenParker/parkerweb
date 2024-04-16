@@ -15,22 +15,22 @@ import Contact from './pages/Contact.jsx';
 function App() {
   return (
     <>
-      <Navbar className='navbar'/>
      <div className="App">
+     <Navbar className='navbar'/>
+
      <main className='inicio'>
+      
       <Routes>
-            <Route index element={<Home/>}/>
+            <Route path='/' element={<Home/>}/>
             <Route path='/home' element={<Home/>}/>
             <Route path='/portafolio' element={<Portafolio/>}/>
             <Route path='/about' element={<About/>}/>
             <Route path='/contact' element={<Contact/>}/>
       </Routes>
-      
-      
      </main>
- 
+ 		<Footer className='Footer'/>
+
     </div>
-		<Footer className='Footer'/>
   
    
     </>
