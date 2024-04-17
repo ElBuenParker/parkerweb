@@ -146,6 +146,7 @@ const BgDiv = styled.div`
   left: -1000px;
   width: 100%;
   height: 100%;
+
   transition: all .6s ease ;
   z-index: 1;
   &.active{

@@ -2,40 +2,62 @@ import React from "react";
 import styled from "styled-components";
 import ParkerSvg from "../components/ParkerSvg";
 import '../styles/bubble.css'
-
+import '../styles/portafolio.css'
+import FormsImg from '../img/forms.jpg'
+import ButtonsImg from '../img/btn.jpg'
 
 const MainContainer = styled.div`
-  display: flex;
-  flex-direction: column;
+  display:flex;
   align-items: center;
   padding: 20px;
+ 
 `;
 
-const Title = styled.h1`
-  font-size: 3rem;
-  color: #3f51b5;
+const Contenido = styled.div`
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  display: flex;
+  height: 800px;
+  background-color:#ffff; //borrar al final
+  margin-top:10%;
 `;
 
-const ImageContainer = styled.div`
-  width: 50%;
-  margin-top: 20px;
-`;
 
-const Image = styled.img`
-  width: 100%;
-  height: auto;
-`;
 
 const Portafolio = () => {
+
+
   return (
     <MainContainer>
-      <Title>My portafolio</Title>
-      <ParkerSvg className='Svg'/>
+    <div className="screen">
+      <section className="presentacion">
+        <div className="bubbleInicio">
+        <div className="bubble">Entre mis proyectos podrás encontrar componentes libres de modificar para uso publico. De igual manera encontrarás proyectos como vacunacion jalisco</div>
+        </div>
+        <ParkerSvg className='Svg'/>
+      </section>
+     
+      <Contenido>
 
-      <ImageContainer>
-        <Image src="https://example.com/image.jpg" alt="Imagen de ejemplo" />
-      </ImageContainer>
-    </MainContainer>
+        <div className="ContenidoImg">  
+          <div className="descripcionImg">Formularios en diferentes presentaciones para uso publico, personalizables y de uso sencillo.</div>
+          <img height={400} className="Img" src={FormsImg}></img>
+        </div>
+
+        <div className="ContenidoBtn">  
+          <div className="descripcionImg">Botones con diferenetes estilos, personalisables y adaptables de manera sencilla.</div>
+          <img height={400} className="Img" src={ButtonsImg}></img>
+        </div>
+
+       
+      </Contenido>
+    </div>
+    
+
+  </MainContainer>
   );
 };
 

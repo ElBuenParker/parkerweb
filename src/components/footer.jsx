@@ -1,13 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
 
+const año = new Date().getFullYear();
+
 const Footer  = () => {
     return (
         
       <FooterContainer >
         <style>@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Teko:wght@300..700&display=swap')</style>
 
-        <FooterText>Copyright © 2024 My Website</FooterText>
+        <FooterText>Copyright © {año} ElBuenParker-Web </FooterText>
         <FooterLink href="https://www.linkedin.com/in/mr-gonzalex/">
         <ion-icon name="logo-linkedin"></ion-icon> Linkedin
         </FooterLink>

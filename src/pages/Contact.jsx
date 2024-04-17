@@ -6,10 +6,10 @@ import '../styles/bubble.css'
 
 
 const MainContainer = styled.div`
-  display: flex;
-  flex-direction: column;
+  display:flex;
   align-items: center;
   padding: 20px;
+ 
 `;
 
 const Title = styled.h1`
@@ -17,25 +17,21 @@ const Title = styled.h1`
   color: #3f51b5;
 `;
 
-const ImageContainer = styled.div`
-  width: 50%;
-  margin-top: 20px;
-`;
-
-const Image = styled.img`
-  width: 100%;
-  height: auto;
-`;
 
 const Contact = () => {
   return (
     <MainContainer>
-      <Title>Contacto</Title>
-      <ParkerSvg className='Svg'/>
+      <div className="screen">
+        <section className="presentacion">
+          <div className="bubbleInicio">
+          <div className="bubble">Peudes contactarme por mis redes como Linkedin o haciendo uso del correo electronico</div>
 
-      <ImageContainer>
-        <Image src="https://example.com/image.jpg" alt="Imagen de ejemplo" />
-      </ImageContainer>
+          </div>
+          <ParkerSvg className='Svg'/>
+        </section>
+      </div>
+      
+
     </MainContainer>
   );
 };

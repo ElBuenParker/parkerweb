@@ -6,10 +6,10 @@ import '../styles/bubble.css'
 
 
 const MainContainer = styled.div`
-  display: flex;
-  flex-direction: column;
+  display:flex;
   align-items: center;
   padding: 20px;
+ 
 `;
 
 const Title = styled.h1`
@@ -17,26 +17,23 @@ const Title = styled.h1`
   color: #3f51b5;
 `;
 
-const ImageContainer = styled.div`
-  width: 50%;
-  margin-top: 20px;
-`;
 
-const Image = styled.img`
-  width: 100px;
-  height: 100px;
-`;
-
-const Home = () => {
+const About = () => {
   return (
     <MainContainer>
-      <Title>about me</Title>
-      
-      <ParkerSvg className='Svg'/>
+      <div className="screen">
+        <section className="presentacion">
+          <div className="bubbleInicio">
+          <div className="bubble">Pozole</div>
 
-    
+          </div>
+          <ParkerSvg className='Svg'/>
+        </section>
+      </div>
+      
+
     </MainContainer>
   );
 };
 
-export default Home;
+export default About;

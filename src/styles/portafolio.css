@@ -1,0 +1,34 @@
+.ContenidoImg{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ContenidoBtn{
+    display: flex;
+    flex-wrap: wrap;
+}
+.descripcionImg{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    display: absolute;
+    border-radius: 40px;
+    border: 2px solid #000000;
+    box-shadow: 3px 4px 0px 1px #000000;
+}
+
+.Img{
+    display: flex;
+    border-radius: 40px;
+    border: 2px solid #000000;
+    box-shadow: 3px 4px 0px 1px #000000;
+}
+.descripcionImg{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    display: absolute;
+    border-radius: 40px;
+    border: 2px solid #000000;
+    box-shadow: 3px 4px 0px 1px #000000;
+}
+
