@@ -10,10 +10,7 @@ function Navbar() {
       name:"Home",
       href:"/home",
     },
-    {
-      name:"About",
-      href:"/about",
-    },
+   
     {
       name:"Portafolio",
       href:"/portafolio",
@@ -62,7 +59,7 @@ const NavContainer = styled.nav`
     font-weight: 400;
     font-family: "Teko", sans-serif;
   font-optical-sizing: auto;
-  z-index: 2;
+  z-index: 5;
     span{
       font-weight: bold;
       font-family: "Teko", sans-serif;
@@ -118,12 +115,12 @@ const NavContainer = styled.nav`
     left: 0;
     right: 0;
     text-align: center;
-    z-index: 2;
+    z-index: 5;
     a{
       color: #000000;
       text-decoration: none;
       margin-right: 4rem;
-      font-size:1.5rem;
+      font-size:2.5rem;
       transition-duration: 800ms
 
     }
@@ -133,7 +130,7 @@ const NavContainer = styled.nav`
     @media(min-width: none){
       display: none;
     }
-    z-index: 2;
+    z-index: 5;
   }
 `
 
@@ -148,7 +145,7 @@ const BgDiv = styled.div`
   height: 100%;
 
   transition: all .6s ease ;
-  z-index: 1;
+  z-index: 4;
   &.active{
     border-radius: 0 0 80% 0;
     top: 0;

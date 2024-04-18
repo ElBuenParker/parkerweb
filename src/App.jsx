@@ -6,7 +6,6 @@ import {Route, Routes, Navigate } from 'react-router-dom';
 
 //Pages
 import Home from './pages/Home';
-import About from './pages/About.jsx';
 import Portafolio from './pages/Portafolio';
 import Contact from './pages/Contact.jsx';
 
@@ -23,7 +22,6 @@ function App() {
             <Route path='/' element={<Home/>}/>
             <Route path='/home' element={<Home/>}/>
             <Route path='/portafolio' element={<Portafolio/>}/>
-            <Route path='/about' element={<About/>}/>
             <Route path='/contact' element={<Contact/>}/>
             <Route path='*' element={<Navigate replace to="/" />} />
 

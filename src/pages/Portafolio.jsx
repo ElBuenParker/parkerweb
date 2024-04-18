@@ -38,10 +38,27 @@ const Portafolio = () => {
     <MainContainer>
     <div className="screen">
       <section className="presentacion">
-        <div className="bubbleInicio">
-        <div className="bubble">Entre mis proyectos podrás encontrar componentes libres de modificar para uso publico. De igual manera encontrarás proyectos como vacunacion jalisco</div>
-        </div>
-        <ParkerSvg className='Svg'/>
+      <div className="bubbleInicio">
+          <div className="bubble">Hola, mi nombre es Alexis, soy desarrollador Front-End e Ingenieron en Computación.</div>
+
+          </div>
+          <div className="parker">
+            <div className="medios">
+            <Link className="github" to={"https://github.com/ElBuenParker/"}>             
+            <div ><ion-icon name="logo-github"></ion-icon></div>
+            </Link>
+            <Link className="Linkedin" to={"https://www.linkedin.com/in/mr-gonzalex/"}>             
+            <div ><ion-icon  name="logo-linkedin"></ion-icon></div>
+            </Link>
+            <Link className="google" to={"/contact"}>             
+            <div ><ion-icon name="mail"></ion-icon></div>
+            </Link>
+           
+            </div>
+            
+
+            <ParkerSvg className='Svg'/>
+          </div>
       </section>
      
       <Contenido>

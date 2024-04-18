@@ -16,6 +16,12 @@
     animation-name: animation;
     animation-iteration-count: infinite;
     animation-duration: 2s;
+    z-index: 0;
+    @media(min-width: 100px){
+       
+      }
+
+    
 }
 .bubbleInicio{
     position: relative;
@@ -23,6 +29,7 @@
     animation-duration: 2s;
 
 }
+
 @keyframes animationBubble {
     0% {right:-900px}
     100%{right: 0px}   
@@ -40,7 +47,7 @@
     position: absolute;
     bottom: -40px;
     left: 60px;
-    z-index: -2;
+    z-index: 0;
 }
     .bubble::after {
         border: 2px solid #000000;
@@ -54,8 +61,8 @@
         position: absolute;
         bottom: -68px;
         left: 50px;
-        z-index: -5;
-}
+        z-index: 0;
+    }
 @keyframes animation {
     0% {top:0}
     50%{top:8px}
@@ -63,16 +70,18 @@
     
 }
 .Svg{
-    position: relative;
-    margin-left: -30%;
-    margin-top: -10%;
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 0%;
     animation-name: inicio;
-    animation-duration: 2s;
+    animation-duration: .8s;
+    z-index: 2;
+    border-radius: 100%;
 
 }
 @keyframes inicio {
-    0% {left:-900px}
-    100%{left:0px}
+    0% {width: 0px;}
+    100%{width: 500px;}
     
 }
 
@@ -84,3 +93,91 @@
     position: relative;
 }
 
+.parker{
+   --s: 25px; /* control the size */
+  --c1: #3a3a3a;
+  --c2: #171717;
+
+  --c: #0000 71%, var(--c1) 0 79%, #0000 0;
+  --_s: calc(var(--s) / 2) / calc(2 * var(--s)) calc(2 * var(--s));
+  background: linear-gradient(45deg, var(--c)) calc(var(--s) / -2) var(--_s),
+    linear-gradient(135deg, var(--c)) calc(var(--s) / 2) var(--_s),
+    radial-gradient(var(--c1) 35%, var(--c2) 37%) 0 0 / var(--s) var(--s);
+    border-radius: 100%;
+    z-index: -2;
+    width: 500px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 10%;
+    border: 2px solid #000000;
+    box-shadow: 3px 4px 0px 1px #000000;
+    
+    
+}
+
+.medios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 200px;
+    animation-name: mediosR;
+    animation-duration: 2s;
+    
+    
+
+}
+.Linkedin{
+    display: inline-flex;
+    color:rgb(15, 113, 179);
+    z-index: 3;
+    font-size: 90px;
+    margin-left: -430px;
+    animation-name: mediosR;
+    animation-duration: 2s;
+    animation-name: mediosRotate;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    
+
+    
+}
+.github{
+    display: inline-flex;
+    color:rgb(238, 238, 238);
+    z-index: 3;
+    font-size: 90px;
+    margin-left: 400px;
+    animation-name: mediosR;
+    animation-duration: 2s;
+    animation-name: mediosRotate;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+   
+}
+.google{
+    display: inline-flex;
+    color:rgb(255, 46, 46);
+    z-index: 3;
+    font-size: 90px;
+    margin-left: 400px;
+    animation-name: mediosRotate;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+   
+}
+
+@keyframes mediosR {
+    0% {opacity: 0%;}
+    90% { opacity: 90%;}
+    100%{opacity: 100%;}
+    
+}
+@keyframes mediosRotate {
+    0% { rotate: -10deg}
+    50% { rotate: 10deg}
+    100%{ rotate: -10deg;}
+    
+}
