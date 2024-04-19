@@ -3,6 +3,9 @@ import styled from "styled-components";
 import ParkerSvg from "../components/ParkerSvg";
 import '../styles/bubble.css'
 import { Link } from 'react-router-dom';
+import '../styles/cmd.css'
+import '../styles/slider.css'
+
 
 
 const MainContainer = styled.div`
@@ -102,10 +105,65 @@ const Home = () => {
           <h2 className="nombre">ElBuen<span className="color">Parker</span></h2>
           <h3 className="frontend">.<ion-icon name="chevron-back"></ion-icon> Front-End developer in Mexico <span className="color2"> /<ion-icon name="chevron-forward"></ion-icon></span></h3>
           </div>
-
-          
-
         </section>
+
+        <div className="mySkills">
+        <div class="skills">
+          <div class="terminal_toolbar">
+            <div class="butt">
+              <button class="btn btn-color"></button>
+              <button class="btn"></button>
+              <button class="btn"></button>
+            </div>
+            <p class="user">ElBuenParker@admin: ~</p>
+            <div class="add_tab">+</div>
+          </div>
+          <div class="terminal_body">
+            <div class="terminal_prompt">
+              <span class="terminal_user">$ npm install skills</span>
+              <span class="terminal_location">~</span>
+              <span class="terminal_bling">$</span>
+              <span class="terminal_cursor"></span>
+
+            </div>
+            <div class="terminal_output">
+              <pre class="output_text">Welcome to my Terminal</pre>
+            </div>
+            <div class="terminal_input">
+              <input placeholder="Type a command..." class="input_text" type="text" />
+            </div>
+          </div>
+        </div>
+
+        <div class="slider">
+          <div class="slide-track">
+              <div class="npm">
+              <ion-icon name="logo-npm"> NPM</ion-icon>
+              </div>
+              <div class="git">
+              <ion-icon name="logo-github"></ion-icon>
+              </div>
+             
+              <div class="figma">
+              <ion-icon name="logo-figma"></ion-icon>
+              </div>
+              <div class="html5">
+              <ion-icon name="logo-html5"></ion-icon>
+              </div>
+              <div class="react">
+              <ion-icon name="logo-react"></ion-icon>
+              </div>
+              <div class="js">
+              <ion-icon name="logo-javascript"></ion-icon>
+              </div>
+              <div class="css3">
+              <ion-icon name="logo-css3"></ion-icon>
+            </div>
+          </div>
+       </div>
+
+        </div>
+        
 
 
       </div>

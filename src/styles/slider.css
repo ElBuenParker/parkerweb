@@ -1,0 +1,70 @@
+.mySkills{
+    display: inline-flex;
+    align-items: center;
+    justify-items: center;
+    margin-left: 25vh;
+    @media(max-width: 1080px){
+        margin-left: 0vh;
+    
+    }
+}
+.css3{
+    color: rgb(0, 157, 255);
+}
+.js{
+    color: rgb(255, 255, 0);
+}
+.react{
+    color: rgb(37, 211, 227);
+}
+.html5{
+    color: rgb(230, 99, 12);
+}
+.git{
+    color: rgb(239, 239, 239);
+}
+.figma{
+    color: rgb(64, 218, 115);
+}
+
+.npm{
+    color: rgb(218, 64, 64);
+}
+
+.slider {
+    width: 55vw;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+}
+
+.slider .slide-track {
+    display: flex;
+    animation: scroll 7s linear infinite;
+    -webkit-animation: scroll 12s linear infinite;
+    width: calc(200px * 10);
+}
+
+.slider .slide {
+    width: 200px;
+}
+
+
+@keyframes scroll {
+    0% {
+       
+        -webkit-transform: translateX(calc(-100px * 1));
+        transform: translateX(calc(-200px * 4));
+    }
+    50% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100% {
+       
+        -webkit-transform: translateX(calc(-100px * 1));
+        transform: translateX(calc(-200px * 4));
+    }
+}
