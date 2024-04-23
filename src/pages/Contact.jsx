@@ -3,6 +3,8 @@ import styled from "styled-components";
 import ParkerSvg from "../components/ParkerSvg";
 import '../styles/bubble.css'
 import { Link } from 'react-router-dom';
+import '../styles/contact.css'
+
 
 
 
@@ -48,6 +50,24 @@ const Contact = () => {
 
             <ParkerSvg className='Svg'/>
           </div>
+          <div className="cvPdf">
+          <div style={{position: 'relative', width: '100%', height: '100%'}}>
+                <object
+                data={require('../utils/CV.pdf')}
+                type="application/pdf"
+                width="100%"
+                height="100%"
+                >
+                    <br />
+                    <a href={require('../utils/CV.pdf')} id="enlaceDescargarPdf"
+                    download="ReactJS.pdf"
+                    >Tu dispositivo no puede visualizar los PDF, da click aquí para descargarlo</a>
+                </object>
+            </div>
+
+
+          </div>
+         
         </section>
       </div>
       

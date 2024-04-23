@@ -134,58 +134,6 @@
     
 }
 
-.medios{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    height: 200px;
-    animation-name: mediosR;
-    animation-duration: 2s;
-    
-    
-
-}
-.Linkedin{
-    display: inline-flex;
-    color:rgb(15, 113, 179);
-    z-index: 3;
-    font-size: 90px;
-    margin-left: -430px;
-    animation-name: mediosR;
-    animation-duration: 2s;
-    animation-name: mediosRotate;
-    animation-iteration-count: infinite;
-    animation-duration: 2s;
-    
-
-    
-}
-.github{
-    display: inline-flex;
-    color:rgb(238, 238, 238);
-    z-index: 3;
-    font-size: 90px;
-    margin-left: 400px;
-    animation-name: mediosR;
-    animation-duration: 2s;
-    animation-name: mediosRotate;
-    animation-iteration-count: infinite;
-    animation-duration: 2s;
-   
-}
-.google{
-    display: inline-flex;
-    color:rgb(255, 46, 46);
-    z-index: 3;
-    font-size: 90px;
-    margin-left: 400px;
-    animation-name: mediosRotate;
-    animation-iteration-count: infinite;
-    animation-duration: 2s;
-   
-}
-
 @keyframes mediosR {
     0% {opacity: 0%;}
     90% { opacity: 90%;}
@@ -198,3 +146,61 @@
     100%{ rotate: -10deg;}
     
 }
+.skillsIcon{
+    z-index: 2;
+    font-size: 100px;
+    height: 500px;
+    width: 500px;
+    display: relative;
+}
+.css3{
+    color: rgb(0, 157, 255);
+    position: relative;
+    top: -180px;
+    left: 200px;
+    animation-name: mediosRotate;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+  ;
+
+
+}
+.js{
+    color: rgb(255, 255, 0);
+    position: relative;
+    top: -50px;
+    left: -200px;
+    animation-name: mediosRotate;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+.react{
+    color: rgb(37, 211, 227);
+    position: relative;
+    top: -50px;
+    left: -220px;
+    animation-name: mediosRotate;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+.html5{
+    color: rgb(230, 99, 12);
+    position: relative;
+    top: -180px;
+    left: 250px;
+    animation-name: mediosRotate;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+   
+}
+
+.figma{
+    color: rgb(64, 218, 115);
+    margin-top: 10px;
+    position: relative;
+    top: -80px;
+    animation-name: mediosRotate;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+

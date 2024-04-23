@@ -85,28 +85,37 @@ const Home = () => {
       <div className="screen">
         <section className="presentacion">
           <div className="bubbleInicio">
-          <div className="bubble">Hola, mi nombre es Alexis, soy desarrollador Front-End e Ingenieron en Computación.</div>
+          <div className="bubble">Hola, mi nombre es Alexis, soy desarrollador Front-End e Ingeniero en Computación.</div>
           </div>
           <div className="parker">
-            <div className="medios">
-            <Link className="github" to={"https://github.com/ElBuenParker/"}>             
-            <div ><ion-icon name="logo-github"></ion-icon></div>
-            </Link>
-            <Link className="Linkedin" to={"https://www.linkedin.com/in/mr-gonzalex/"}>             
-            <div ><ion-icon  name="logo-linkedin"></ion-icon></div>
-            </Link>
-            <Link className="google" to={"/contact"}>             
-            <div ><ion-icon name="mail"></ion-icon></div>
-            </Link>
-            </div>
+
             <ParkerSvg className='Svg'/>
+            <div className="skillsIcon">
+            <div class="figma">
+              <ion-icon name="logo-figma"></ion-icon>
+              </div>
+              <div class="react">
+              <ion-icon name="logo-react"></ion-icon>
+              </div>
+              <div class="html5">
+              <ion-icon name="logo-html5"></ion-icon>
+              </div>
+              
+              <div class="js">
+              <ion-icon name="logo-javascript"></ion-icon>
+              </div>
+              <div class="css3">
+              <ion-icon name="logo-css3"></ion-icon>
+            </div>
+
+            </div>
           </div>
           <div className="presentacion">
           <h2 className="nombre">ElBuen<span className="color">Parker</span></h2>
-          <h3 className="frontend">.<ion-icon name="chevron-back"></ion-icon> Front-End developer in Mexico <span className="color2"> /<ion-icon name="chevron-forward"></ion-icon></span></h3>
+          <h3 className="frontend">.<ion-icon name="chevron-back"></ion-icon> Front-End developer  <span className="color2"> /<ion-icon name="chevron-forward"></ion-icon></span></h3>
           </div>
         </section>
-
+      
         <div className="mySkills">
         <div class="skills">
           <div class="terminal_toolbar">
@@ -144,21 +153,7 @@ const Home = () => {
               <ion-icon name="logo-github"></ion-icon>
               </div>
              
-              <div class="figma">
-              <ion-icon name="logo-figma"></ion-icon>
-              </div>
-              <div class="html5">
-              <ion-icon name="logo-html5"></ion-icon>
-              </div>
-              <div class="react">
-              <ion-icon name="logo-react"></ion-icon>
-              </div>
-              <div class="js">
-              <ion-icon name="logo-javascript"></ion-icon>
-              </div>
-              <div class="css3">
-              <ion-icon name="logo-css3"></ion-icon>
-            </div>
+              
           </div>
        </div>
 
