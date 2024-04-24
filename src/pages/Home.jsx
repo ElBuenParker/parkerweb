@@ -5,6 +5,7 @@ import '../styles/bubble.css'
 import { Link } from 'react-router-dom';
 import '../styles/cmd.css'
 import '../styles/slider.css'
+import Perfil from '../utils/perfil2.jpg'
 
 
 
@@ -116,49 +117,42 @@ const Home = () => {
           </div>
         </section>
       
-        <div className="mySkills">
+
+        <div className="quienSoy">
+           
         <div class="skills">
           <div class="terminal_toolbar">
             <div class="butt">
               <button class="btn btn-color"></button>
-              <button class="btn"></button>
-              <button class="btn"></button>
+              <button class="btn2"></button>
+              <button class="btn3"></button>
             </div>
             <p class="user">ElBuenParker@admin: ~</p>
             <div class="add_tab">+</div>
           </div>
           <div class="terminal_body">
             <div class="terminal_prompt">
-              <span class="terminal_user">$ npm install skills</span>
-              <span class="terminal_location">~</span>
-              <span class="terminal_bling">$</span>
+              <span class="terminal_user">&lt; Manuel Alexis Gonzalez Romero</span>
+              <p className="desarrollador">&lt;  Desarrollador Javascript y FronEnd </p>
+              <p className="ing">&lt; Ingeniero en computacion</p>
+              <p className="define"><span>&lt;Que_</span> me define?</p>
+              <p className="soy">&lt;  Soy alguien que realmente disfruta
+              desarrollar interfaces web, creativo, con un compromiso
+              continuo por el aprendizaje y mejora constante de sus habilidades.</p>
               <span class="terminal_cursor"></span>
-
             </div>
-            <div class="terminal_output">
-              <pre class="output_text">Welcome to my Terminal</pre>
-            </div>
-            <div class="terminal_input">
-              <input placeholder="Type a command..." class="input_text" type="text" />
-            </div>
+  
           </div>
         </div>
 
-        <div class="slider">
-          <div class="slide-track">
-              <div class="npm">
-              <ion-icon name="logo-npm"> NPM</ion-icon>
-              </div>
-              <div class="git">
-              <ion-icon name="logo-github"></ion-icon>
-              </div>
-             
-              
+          <div class="cardP">
+            <img src={Perfil} className="perfil" />
+            <p class="cardP-title">ElBuenParker <p className="parrafo"></p>
+                <span>Front-End dev </span>
+            </p>
           </div>
-       </div>
-
+          
         </div>
-        
 
 
       </div>

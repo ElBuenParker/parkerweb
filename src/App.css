@@ -50,4 +50,7 @@ filter: drop-shadow(-2px 5px 15px rgba(0, 0, 0, 0.7));
     transform: rotate(360deg);
   }
 }
-
+.parrafo {
+  white-space: pre;
+  justify-content: start;
+}

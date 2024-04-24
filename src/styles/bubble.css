@@ -4,11 +4,22 @@
 .nombre{
     position: relative;
     display: inline-flex;
-    left: 30vh;
+    left: 50vh;
     top: -40vh;
     @media(max-width: 1080px){
-        left: 0vh;
+        left: 2vh;
         top: -5vh;
+    }
+
+}
+.frontend{
+    position: relative;
+    display: inline-flex;
+    left: 22vh;
+    top: 0vh;
+    @media(max-width: 1080px){
+        left: 0vh;
+        top: 1vh;
     }
 
 }
@@ -16,6 +27,7 @@
 .presentacion{
     flex-direction: column;
     z-index: 1;
+    
 }
 
 .bubble {
@@ -102,10 +114,7 @@
     
 }
 
-.presentacion{
-    position: relative;
-    flex-wrap: wrap;
-}
+
 .screen{
     position: relative;
 }
@@ -172,7 +181,7 @@
     left: -200px;
     animation-name: mediosRotate;
     animation-iteration-count: infinite;
-    animation-duration: 2s;
+    animation-duration: 2.2s;
 }
 .react{
     color: rgb(37, 211, 227);
@@ -181,7 +190,7 @@
     left: -220px;
     animation-name: mediosRotate;
     animation-iteration-count: infinite;
-    animation-duration: 2s;
+    animation-duration: 2.3s;
 }
 .html5{
     color: rgb(230, 99, 12);
@@ -190,7 +199,7 @@
     left: 250px;
     animation-name: mediosRotate;
     animation-iteration-count: infinite;
-    animation-duration: 2s;
+    animation-duration: 2.1s;
    
 }
 
