@@ -7,7 +7,7 @@
     left: 16vh;
     top: -40vh;
     @media(max-width: 1080px){
-        left: 2vh;
+        left: 1vh;
         top: -5vh;
     }
 

@@ -5,6 +5,7 @@ import '../styles/bubble.css'
 import '../styles/portafolio.css'
 import FormsImg from '../img/forms.jpg'
 import ButtonsImg from '../img/btn.jpg'
+import PortafolioImg from '../img/portafolio.jpg'
 import { Link } from 'react-router-dom';
 
 const MainContainer = styled.div`
@@ -15,22 +16,15 @@ const MainContainer = styled.div`
 `;
 
 
-
 const Contenido = styled.div`
   display:flex;
-  align-items:center;
-  align-content: space-between;
-  justify-content: space-between;
-  padding: 20px;
-  display: flex;
-  height: 1200px;
-  margin-top:10%;
-  @media(min-width: 100px){
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top:10vh;
+  @media(max-width: 1080px){
       position: relative;
-      margin-top:1%;
-  
-      display: block;
-    }
+      margin-top:5vh;
+      }
 
 `;
 
@@ -40,7 +34,7 @@ const Portafolio = () => {
     <div className="screen">
       <section className="presentacion">
       <div className="bubbleInicio">
-          <div className="bubble">Hola, mi nombre es Alexis, soy desarrollador Front-End e Ingenieron en Computación.</div>
+          <div className="bubble">A continuación podrás encontrar mi portafolio con algunos de mis proyectos realizados.</div>
 
           </div>
           <div className="parker">
@@ -65,16 +59,15 @@ const Portafolio = () => {
       <Contenido>
 
         <div className="ContenidoImg">  
-          <div className="descripcionImg">Formularios</div>
           <div class="card">
             <div class="card-inner">
               <div class="card-front">
                 <p>
-                <img height={400} className="Img" src={FormsImg}></img>
+                <img className="Img" src={FormsImg}></img>
                 </p>
               </div>
               <div class="card-back">
-                <p>Formularios interactivos diseñados con HTML y estilizados con CSS. Estos formularios son altamente personalizables, permitiendo ajustes en diseño, campos requeridos y acciones de envío. Su estructura modular facilita la integración en diferentes proyectos web.  </p>
+                <p>Formularios hechos con css paa uso publico y editables. </p>
                 <Link to={"https://github.com/ElBuenParker/logins"}>
                 <button>
                 <span class="button_top" > Ir al código <ion-icon classname="gh-icon" name="logo-github"></ion-icon></span>
@@ -85,19 +78,37 @@ const Portafolio = () => {
             </div>
           </div>
         </div>
-
-        <div className="ContenidoBtn">  
-          <div className="descripcionImg">Botones Personalizados</div>
+        <div className="ContenidoImg">  
           <div class="card">
             <div class="card-inner">
               <div class="card-front">
                 <p>
-                <img height={400} className="Img" src={ButtonsImg}></img>
+                <img className="Img" src={ButtonsImg}></img>
                 </p>
               </div>
               <div class="card-back">
-                <p>Botones interactivos con estilos personalizables creados con CSS y JavaScript, diseñados para ser fácilmente editables y adaptables a diferentes estilos y necesidades. Su código permite ajustar colores, tamaño, efectos de hover y comportamiento con facilidad, proporcionando una solución versátil para agregar interactividad a páginas web.</p>
+                <p>Botones con estilos CSS de facil personalización.</p>
                 <Link to={"https://github.com/ElBuenParker/buttons"}>
+                <button>
+                <span class="button_top" > Ir al código <ion-icon classname="gh-icon" name="logo-github"></ion-icon></span>
+              </button>
+                </Link>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="ContenidoImg">  
+          <div class="card">
+            <div class="card-inner">
+              <div class="card-front">
+                <p>
+                <img className="Img" src={PortafolioImg}></img>
+                </p>
+              </div>
+              <div class="card-back">
+                <p>Repositorio de mi portafolio realizado con react.</p>
+                <Link to={"https://github.com/ElBuenParker/parkerweb"}>
                 <button>
                 <span class="button_top" > Ir al código <ion-icon classname="gh-icon" name="logo-github"></ion-icon></span>
               </button>

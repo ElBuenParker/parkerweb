@@ -148,7 +148,7 @@ const Home = () => {
               <ion-icon name="logo-html5"></ion-icon>
               </div>, Css <div class="css3Icon">
               <ion-icon name="logo-css3"></ion-icon>
-            </div>, react <div class="reactIcon">
+            </div>, react <div class="react">
               <ion-icon name="logo-react"></ion-icon>
               </div>y entornos de diseño como Figma <div class="figmaIcon">
               <ion-icon name="logo-figma"></ion-icon>
