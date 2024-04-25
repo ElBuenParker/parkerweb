@@ -4,7 +4,7 @@
 .nombre{
     position: relative;
     display: inline-flex;
-    left: 50vh;
+    left: 16vh;
     top: -40vh;
     @media(max-width: 1080px){
         left: 2vh;
@@ -15,18 +15,18 @@
 .frontend{
     position: relative;
     display: inline-flex;
-    left: 22vh;
-    top: 0vh;
+    left: -15vh;
+    top: -6vh;
     @media(max-width: 1080px){
         left: 0vh;
-        top: 1vh;
+        top: -1vh;
     }
 
 }
 
 .presentacion{
     flex-direction: column;
-    z-index: 1;
+    z-index: -1;
     
 }
 
@@ -213,3 +213,30 @@
     animation-duration: 2s;
 }
 
+.whoIs{
+    margin-top: 8vh;
+    z-index: -1;
+    margin-bottom: 2vh;
+    position: relative;
+    justify-content: center;
+    left: 100px;
+    color: rgb(226, 51, 51);
+    font-size:4vh;
+    font-weight: 400;
+    font-family: "Kode Mono", monospace;
+    text-shadow: 1px 1px 0px #0a0808;
+      span{
+        font-weight: bold;
+        font-family: "Teko", sans-serif;
+        font-optical-sizing: auto;
+          }
+          span:hover{
+      color: #e5173d;
+
+    }
+          @media(max-width: 1080px){
+        font-size: 2vh;
+        left: 0;
+    
+    }
+}

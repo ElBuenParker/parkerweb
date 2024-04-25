@@ -86,7 +86,7 @@ const Home = () => {
       <div className="screen">
         <section className="presentacion">
           <div className="bubbleInicio">
-          <div className="bubble">Hola, mi nombre es Alexis, soy desarrollador Front-End e Ingeniero en Computación.</div>
+          <div className="bubble">Hola, soy Alexis, ingeniero en computación. Me apasiona el universo de la programación, el diseño y desarrollo web y la tecnología en general. mi pasión es el front-end, y crear cosas divertidas.</div>
           </div>
           <div className="parker">
 
@@ -115,10 +115,14 @@ const Home = () => {
           <h2 className="nombre">ElBuen<span className="color">Parker</span></h2>
           <h3 className="frontend">.<ion-icon name="chevron-back"></ion-icon> Front-End developer  <span className="color2"> /<ion-icon name="chevron-forward"></ion-icon></span></h3>
           </div>
+
+          <div className="whoIs" z-index={-1}>Quien es Manuel Alexis? </div>
+
         </section>
-      
+
 
         <div className="quienSoy">
+          
            
         <div class="skills">
           <div class="terminal_toolbar">
@@ -139,7 +143,20 @@ const Home = () => {
               <p className="soy">&lt;  Soy alguien que realmente disfruta
               desarrollar interfaces web, creativo, con un compromiso
               continuo por el aprendizaje y mejora constante de sus habilidades.</p>
+              <p className="define"><span>&lt;Cuales son mis Skills?</span></p>
+              <p className="soy">&lt; Uso herramientas como Javascript <div class="jsIcon"><ion-icon name="logo-javascript"></ion-icon></div> , Html<div class="html5Icon">
+              <ion-icon name="logo-html5"></ion-icon>
+              </div>, Css <div class="css3Icon">
+              <ion-icon name="logo-css3"></ion-icon>
+            </div>, react <div class="reactIcon">
+              <ion-icon name="logo-react"></ion-icon>
+              </div>y entornos de diseño como Figma <div class="figmaIcon">
+              <ion-icon name="logo-figma"></ion-icon>
+              </div>.
               <span class="terminal_cursor"></span>
+
+</p>
+
             </div>
   
           </div>
