@@ -73,6 +73,11 @@ const Portafolio = () => {
                 <span class="button_top" > Ir al código <ion-icon classname="gh-icon" name="logo-github"></ion-icon></span>
               </button>
                 </Link>
+                <Link to={"https://elbuenparker.github.io/logins/"}>
+                <button>
+                <span class="button_top" > Demo <ion-icon classname="gh-icon" name="logo-github"></ion-icon></span>
+              </button>
+                </Link>
               </div>
               
             </div>
@@ -93,6 +98,11 @@ const Portafolio = () => {
                 <span class="button_top" > Ir al código <ion-icon classname="gh-icon" name="logo-github"></ion-icon></span>
               </button>
                 </Link>
+                <Link to={"https://elbuenparker.github.io/buttons/"}>
+                <button>
+                <span class="button_top" > Demo <ion-icon classname="gh-icon" name="logo-github"></ion-icon></span>
+              </button>
+                </Link>
                
               </div>
             </div>
@@ -107,7 +117,7 @@ const Portafolio = () => {
                 </p>
               </div>
               <div class="card-back">
-                <p>Repositorio de mi portafolio realizado con react.</p>
+                <p>Repositorio de mi portafolio realizado en react.</p>
                 <Link to={"https://github.com/ElBuenParker/parkerweb"}>
                 <button>
                 <span class="button_top" > Ir al código <ion-icon classname="gh-icon" name="logo-github"></ion-icon></span>
