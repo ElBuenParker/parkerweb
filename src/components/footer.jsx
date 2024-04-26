@@ -10,10 +10,10 @@ const Footer  = () => {
         <style>@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Teko:wght@300..700&display=swap')</style>
 
         <FooterText>Copyright © {año} ElBuenParker-Web </FooterText>
-        <FooterLink href="https://www.linkedin.com/in/mr-gonzalex/">
+        <FooterLink target="_blank" href="https://www.linkedin.com/in/mr-gonzalex/">
         <ion-icon name="logo-linkedin"></ion-icon> Linkedin
         </FooterLink>
-        <FooterLink href="https://github.com/ElBuenParker">
+        <FooterLink target="_blank" href="https://github.com/ElBuenParker">
         <ion-icon classname="gh-icon" name="logo-github"></ion-icon> GitHub
         </FooterLink>
 

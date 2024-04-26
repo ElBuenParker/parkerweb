@@ -68,12 +68,12 @@ const Portafolio = () => {
               </div>
               <div class="card-back">
                 <p>Formularios hechos con css paa uso publico y editables. </p>
-                <Link to={"https://github.com/ElBuenParker/logins"}>
+                <Link target="_blank" to={"https://github.com/ElBuenParker/logins"}>
                 <button>
                 <span class="button_top" > Ir al código <ion-icon classname="gh-icon" name="logo-github"></ion-icon></span>
               </button>
                 </Link>
-                <Link to={"https://elbuenparker.github.io/logins/"}>
+                <Link target="_blank" to={"https://elbuenparker.github.io/logins/"}>
                 <button>
                 <span class="button_top" > Demo <ion-icon classname="gh-icon" name="logo-github"></ion-icon></span>
               </button>
@@ -93,12 +93,12 @@ const Portafolio = () => {
               </div>
               <div class="card-back">
                 <p>Botones con estilos CSS de facil personalización.</p>
-                <Link to={"https://github.com/ElBuenParker/buttons"}>
+                <Link target="_blank" to={"https://github.com/ElBuenParker/buttons"}>
                 <button>
                 <span class="button_top" > Ir al código <ion-icon classname="gh-icon" name="logo-github"></ion-icon></span>
               </button>
                 </Link>
-                <Link to={"https://elbuenparker.github.io/buttons/"}>
+                <Link target="_blank" to={"https://elbuenparker.github.io/buttons/"}>
                 <button>
                 <span class="button_top" > Demo <ion-icon classname="gh-icon" name="logo-github"></ion-icon></span>
               </button>
@@ -118,7 +118,7 @@ const Portafolio = () => {
               </div>
               <div class="card-back">
                 <p>Repositorio de mi portafolio realizado en react.</p>
-                <Link to={"https://github.com/ElBuenParker/parkerweb"}>
+                <Link target="_blank" to={"https://github.com/ElBuenParker/parkerweb"}>
                 <button>
                 <span class="button_top" > Ir al código <ion-icon classname="gh-icon" name="logo-github"></ion-icon></span>
               </button>
