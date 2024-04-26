@@ -21,6 +21,7 @@ function App() {
             <Route index element={<Home/>}/>
             <Route path='/' element={<Home/>}/>
             <Route path='/home' element={<Home/>}/>
+            <Route path='/buttons'/>
             <Route path='/portafolio' element={<Portafolio/>}/>
             <Route path='/contact' element={<Contact/>}/>
             <Route path='*' element={<Navigate replace to="/" />} />
