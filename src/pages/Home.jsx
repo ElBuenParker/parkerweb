@@ -2,9 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import ParkerSvg from "../components/ParkerSvg";
 import '../styles/bubble.css'
-import { Link } from 'react-router-dom';
 import '../styles/cmd.css'
-import '../styles/slider.css'
 import Perfil from '../utils/perfil2.jpg'
 
 
@@ -16,6 +14,7 @@ const MainContainer = styled.div`
 
   h2{
     color: black;
+    background-color: transparent;
     font-size:15vh;
     font-weight: 400;
     font-family: "Teko", sans-serif;

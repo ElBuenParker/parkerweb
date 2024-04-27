@@ -38,22 +38,29 @@ const Portafolio = () => {
 
           </div>
           <div className="parker">
-            <div className="medios">
-            <Link className="github" to={"https://github.com/ElBuenParker/"}>             
-            <div ><ion-icon name="logo-github"></ion-icon></div>
-            </Link>
-            <Link className="Linkedin" to={"https://www.linkedin.com/in/mr-gonzalex/"}>             
-            <div ><ion-icon  name="logo-linkedin"></ion-icon></div>
-            </Link>
-            <Link className="google" to={"/contact"}>             
-            <div ><ion-icon name="mail"></ion-icon></div>
-            </Link>
-           
-            </div>
-            
+       
 
             <ParkerSvg className='Svg'/>
+
+            <div class="lamp">
+              
+              <div class="glass">
+                <div class="lava">
+                  <div class="blob"></div>
+                  <div class="blob"></div>
+                  <div class="blob"></div>
+                  <div class="blob top"></div>
+                  <div class="blob bottom"></div>
+                </div>
+              </div>
+  
+            </div>
+  
           </div>
+          <div className="myPortafolio">
+            <h2 className="portafolioText">Mi<span className="portafolioText2">Portafolio</span></h2>
+            </div>
+            
       </section>
      
       <Contenido>

@@ -1,6 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Teko:wght@300..700&display=swap');
+
 .cvPdf{
-display: flex;    
+display: flex; 
 height: 700px;
 justify-content: center;
   
 }
+.screen{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.myContact{
+    display: block;
+    flex-direction: column;   
+    position: relative;
+    width: 100%;
+    color: #ffffff;
+    top: 40px;
+  
+}
+
+.containerLinkedin{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    .Linkedin{
+        position: relative;
+        color: rgb(26, 114, 202);
+        font-size: 30vh;
+        @media(max-width: 1080px){
+            font-size: 10vh;
+            top: 60px;
+          }
+    }
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.containerGithub{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+
+    .github{
+        position: relative;
+        color: rgb(181, 181, 181);
+        font-size: 30vh;
+        margin-left: 10px;
+        @media(max-width: 1080px){
+            font-size: 10vh;
+            top: 60px;
+          }
+
+    }
+    flex-direction: row-reverse;
+
+}
+
+.containerCv{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+
+    .cv{
+        position: relative;
+        color: rgb(255, 255, 255);
+        font-size: 30vh;
+        @media(max-width: 1080px){
+            font-size: 10vh;
+            top: 60px;
+          }
+
+    }
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.contactText{
+    position: relative;
+    font-family: "Teko", sans-serif;
+    width: 60%;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    top: 40px;
+    @media(max-width: 1080px){
+        font-size: 10vh;
+            width: 80%;
+
+      }
+      .Img{
+        width: 100%;
+        height: 100%;
+        top:1px;
+
+      }
+      .CvText{
+        font-size: 5rem;
+      }
+
+}
+
+
+.loading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+  .loading-box {
+    width: 400px;
+    height: 100px;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  
+  .WH {
+    width: 10px;
+    height: 70px;
+    position: absolute;
+  }
+  
+  .l1 {
+    left: 0;
+    animation: l1 4s infinite linear;
+    background-color: #3395ff;
+
+  }
+  .l2 {
+    right: 0;
+    animation: l2 4s infinite linear;
+    background-color: #3395ff;
+
+  }
+  .ball {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    animation: ball 4s infinite linear;
+    background-color: #3395ff;
+
+  }
+  
+  @keyframes l1 {
+    0% {
+      top: 0%;
+    }
+    10% {
+      top: -20%;
+    }
+    20% {
+      top: 0%;
+    }
+    30% {
+      top: 40%;
+    }
+    40% {
+      top: 0%;
+    }
+    50% {
+      top: 30%;
+    }
+    60% {
+      top: 40%;
+    }
+    70% {
+      top: 60%;
+    }
+    80% {
+      top: -10%;
+    }
+    90% {
+      top: 10%;
+    }
+    100% {
+      top: 0%;
+    }
+  }
+  @keyframes l2 {
+    0% {
+      bottom: 0%;
+    }
+    10% {
+      bottom: -20%;
+    }
+    20% {
+      bottom: 40%;
+    }
+    30% {
+      bottom: 60%;
+    }
+    40% {
+      bottom: 20%;
+    }
+    50% {
+      bottom: 30%;
+    }
+    60% {
+      bottom: 40%;
+    }
+    70% {
+      bottom: 60%;
+    }
+    80% {
+      bottom: -10%;
+    }
+    90% {
+      bottom: 10%;
+    }
+    100% {
+      bottom: 0%;
+    }
+  }
+  @keyframes ball {
+    0% {
+      top: 80%;
+      left: 96%;
+    }
+    10% {
+      top: 10%;
+      left: 3%;
+    }
+    20% {
+      top: 10%;
+      left: 90%;
+    }
+    30% {
+      top: 60%;
+      left: 3%;
+    }
+    40% {
+      top: 10%;
+      left: 90%;
+    }
+    50% {
+      top: 50%;
+      left: 3%;
+    }
+    60% {
+      top: 10%;
+      left: 90%;
+    }
+    70% {
+      top: 93%;
+      left: 3%;
+    }
+    80% {
+      top: 83%;
+      left: 90%;
+    }
+    90% {
+      top: 10%;
+      left: 3%;
+    }
+    100% {
+      top: 80%;
+      left: 90%;
+    }
+  }
+  
+
+  .download-button {
+    position: relative;
+    border-width: 0;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 4px;
+    z-index: 1;
+    width: 400px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+   }
+   
+   .download-button .docs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    height: 90px;
+    padding: 0 10px;
+    border-radius: 4px;
+    z-index: 1;
+    background-color: #242a35;
+    border: solid 1px #e8e8e82d;
+    transition: all .5s cubic-bezier(0.77, 0, 0.175, 1);
+   }
+   
+   .download-button:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   }
+   
+   .download {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+    height: 90px;
+    margin:  auto;
+    z-index: -1;
+    border-radius: 4px;
+    transform: translateY(0%);
+    background-color: #ee4949;
+    border: solid 1px #c1c1c12d;
+    transition: all .5s cubic-bezier(0.77, 0, 0.175, 1);
+    .enlace{
+      color: #ffffff;
+    }
+     }
+   
+   .download-button:hover .download {
+    transform: translateY(100%)
+   }
+   
+   .download svg polyline,.download svg line {
+    animation: docs 1s infinite;
+   }
+   
+   @keyframes docs {
+    0% {
+     transform: translateY(0%);
+    }
+   
+    50% {
+     transform: translateY(-15%);
+    }
+   
+    100% {
+     transform: translateY(0%);
+    }
+   }

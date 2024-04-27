@@ -142,3 +142,42 @@
     /* Push the button downwards when pressed */
     transform: translateY(0);
   }
+  .myPortafolio{
+    position: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    color: black;
+    margin-left: 84vh;
+    background-color: transparent;
+    font-size:10vh;
+    font-weight: 400;
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    z-index: 5;
+    transform: translateY(-200px);
+
+    text-shadow: 4px 4px 1px #ffffff;
+      span{
+        font-weight: bold;
+        font-family: "Teko", sans-serif;
+        font-optical-sizing: auto;
+        color: #e5173d;
+
+          }
+          span:hover{
+      color: #2b4353;
+
+    }
+          @media(max-width: 1080px){
+        font-size: 4vh;
+        transform: translateY(50px);
+        margin-left: 0vh;
+
+
+    
+    }
+    
+
+}
