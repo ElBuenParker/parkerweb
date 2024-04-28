@@ -24,8 +24,8 @@
     border-radius: 40px;
     border: 2px solid #000000;
     box-shadow: 3px 4px 0px 1px #000000;
-    height: 40vh;
-    width: 60vh;
+    height: 30vh;
+    width: 40vh;
     @media(max-width: 1080px){
       height: 20vh;
       width: 25vh;
@@ -48,8 +48,8 @@
 
 
 .card {
-    height: 40vh;
-    width: 60vh;
+    height: 30vh;
+    width: 40vh;
     perspective: 1000px;
     border-radius: 60px;
     @media(max-width: 1080px){
@@ -151,7 +151,7 @@
     color: black;
     margin-left: 84vh;
     background-color: transparent;
-    font-size:10vh;
+    font-size:8vh;
     font-weight: 400;
     font-family: "Teko", sans-serif;
     font-optical-sizing: auto;

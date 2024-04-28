@@ -30,6 +30,8 @@ const Contenido = styled.div`
 const Portafolio = () => {
   return (
     <MainContainer>
+    <div className="screenMain">
+      
     <div className="screen">
       <section className="presentacion">
       <div className="bubbleInicio">
@@ -139,6 +141,9 @@ const Portafolio = () => {
       </Contenido>
     </div>
     
+
+    </div>
+
 
   </MainContainer>
   );

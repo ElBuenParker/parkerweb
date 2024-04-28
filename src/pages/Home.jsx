@@ -10,6 +10,7 @@ import Perfil from '../utils/perfil2.jpg'
 const MainContainer = styled.div`
   display:flex;
   align-items: center;
+  justify-content: center;
 
   h2{
     color: black;
@@ -81,6 +82,8 @@ const Title = styled.h1`
 const Home = () => {
   return (
     <MainContainer>
+      <div className="screenMain">
+
       <div className="screen">
         <section className="presentacion">
           <div className="bubbleInicio">
@@ -166,12 +169,11 @@ const Home = () => {
                 <span>Front-End dev </span>
             </p>
           </div>
-          
         </div>
-
-
       </div>
       
+      </div>
+     
 
     </MainContainer>
   );

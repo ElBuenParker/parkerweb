@@ -29,7 +29,7 @@ const Footer  = () => {
 const FooterContainer = styled.div`
   border-radius: 5px;
   box-shadow: 3px 4px 0px 1px #000000;
-  background-color: #dddd;
+  background-color: #ffffffdd;
   color: #fff;
   display: flex;
   position: absolute;
@@ -38,11 +38,7 @@ const FooterContainer = styled.div`
   width: 100%;
   height: 100px;
   align-items: center;
-  margin-top:50px;
   font-size: 1.2rem;
-  @media (max-width: 768px) {
-    flex-direction: column;
-  }
 `;
 
 const FooterText = styled.p`
