@@ -11,7 +11,6 @@ import { Link } from 'react-router-dom';
 const MainContainer = styled.div`
   display:flex;
   align-items: center;
-  padding: 20px;
   justify-content: center;
 `;
 

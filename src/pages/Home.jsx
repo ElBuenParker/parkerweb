@@ -10,7 +10,6 @@ import Perfil from '../utils/perfil2.jpg'
 const MainContainer = styled.div`
   display:flex;
   align-items: center;
-  padding: 20px;
 
   h2{
     color: black;

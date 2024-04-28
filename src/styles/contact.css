@@ -6,11 +6,7 @@ height: 700px;
 justify-content: center;
   
 }
-.screen{
-    display: block;
-    justify-content: center;
-    align-items: center;
-}
+
 .myContact{
     display: block;
     flex-direction: column;   

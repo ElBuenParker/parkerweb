@@ -12,7 +12,6 @@ import pdf from '../utils/CV.pdf'
 const MainContainer = styled.div`
   display:flex;
   align-items: center;
-  padding: 20px;
   justify-content: center;
  
 `;
