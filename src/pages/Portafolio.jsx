@@ -19,10 +19,8 @@ const Contenido = styled.div`
   display:flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top:10vh;
   @media(max-width: 1080px){
       position: relative;
-      margin-top:5vh;
       }
 
 `;
@@ -36,15 +34,10 @@ const Portafolio = () => {
       <section className="presentacion">
       <div className="bubbleInicio">
           <div className="bubble">A continuación podrás encontrar mi portafolio con algunos de mis proyectos realizados.</div>
-
           </div>
           <div className="parker">
-       
-
             <ParkerSvg className='Svg'/>
-
             <div class="lamp">
-              
               <div class="glass">
                 <div class="lava">
                   <div class="blob"></div>
@@ -63,6 +56,12 @@ const Portafolio = () => {
             </div>
             
       </section>
+      <div className="separadorMain">
+        <div className="separador"></div>
+        <div className="separado2r"></div>
+        <div className="separador3"></div>
+        <div className="separador4"></div>
+        </div>
      
       <Contenido>
 

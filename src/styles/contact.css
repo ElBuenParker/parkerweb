@@ -6,15 +6,65 @@ height: 700px;
 justify-content: center;
   
 }
+.separadorMain{
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 80px;
+  flex-direction: column;
+  @media(max-width: 1080px){
+    margin-top: 20px;
+    }
+}
+.separador{
+  height: 2px;
+  margin: 5px;
+  background-color: rgb(255, 255, 255);
+  width: 90%;
+  display: flex;
+  position: relative;
 
+}
+.separado2r{
+  height: 2px;
+  margin: 5px;
+  background-color: rgb(255, 255, 255);
+  width: 80%;
+  display: flex;
+  position: relative;
+
+}
+.separador3{
+  height: 2px;
+  margin: 5px;
+  background-color: rgb(255, 255, 255);
+  width: 70%;
+  display: flex;
+  position: relative;
+
+}
+.separador4{
+  height: 2px;
+  margin: 5px;
+  background-color: rgb(255, 255, 255);
+  width: 60%;
+  display: flex;
+  position: relative;
+
+}
 .myContact{
     display: flex;
-    flex-direction: column;   
+
+    flex-direction:row;   
     align-items: center;
     position: relative;
     width: 100%;
     color: #ffffff;
-    top: 40px;
+    margin-bottom: 40px;
+    @media(max-width: 1080px){
+    flex-direction: column;
+    }
   
 }
 
@@ -22,7 +72,7 @@ justify-content: center;
     display: flex;
     position: relative;
     align-items: center;
-    width: 60%;
+    width: 90%;
     height: 300px;
     justify-content: center;
     .Linkedin{
@@ -45,7 +95,7 @@ justify-content: center;
 .containerGithub{
     display: inline-flex;
     position: relative;
-    width: 60%;
+    width: 90%;
     height: 300px;
     justify-content: center;
     align-items: center;

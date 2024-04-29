@@ -30,7 +30,7 @@ const Contact = () => {
       <div className="screen">
         <section className="presentacion">
           <div className="bubbleInicio">
-          <div className="bubble">Hola, mi nombre es Alexis, soy desarrollador Front-End e Ingenieron en Computación.</div>
+          <div className="bubble">Puedes descargar mi Cv o bien visitar cualquiera de mis redes para conocer más de mi.</div>
 
           </div>
           <div className="parker">
@@ -59,16 +59,24 @@ const Contact = () => {
                   <div class="WH color l2"></div>
                 </div>
               </div>
-              
+
         </section>
+        <div className="separadorMain">
+        <div className="separador"></div>
+        <div className="separado2r"></div>
+        <div className="separador3"></div>
+        <div className="separador4"></div>
+        </div>
             <div className="myContact">
               <div className="containerLinkedin">
                 <Link target="_blank" className="Linkedin" to={"https://www.linkedin.com/in/mr-gonzalex/"}>             
                   <div ><ion-icon  name="logo-linkedin"></ion-icon></div>
                 </Link>
+
                 <div className="contactText">
                 <img className="Img" src={Linkedin}></img>
                 </div>
+
               </div>
               <div  className="containerGithub">
                 <Link target="_blank" className="github" to={"https://github.com/ElBuenParker/"}>             

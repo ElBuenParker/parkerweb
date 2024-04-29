@@ -31,7 +31,7 @@ const MainContainer = styled.div`
 
     }
           @media(max-width: 1080px){
-        font-size: 10vh;
+        font-size: 9vh;
     
     }
     }

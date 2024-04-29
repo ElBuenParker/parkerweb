@@ -49,6 +49,7 @@
 
 .bubble {
     position: relative;
+    display: inline-flex;
     color: rgb(0, 0, 0);
     font-family: "Carter One", system-ui;
     background-color: #ffffff;
@@ -59,7 +60,7 @@
     border-radius: 80px;
     border: 2px solid #264143;
     box-shadow: 3px 4px 0px 1px #000000;
-    font-size: 30px;
+    font-size: 20px;
     animation-name: animation;
     animation-iteration-count: infinite;
     animation-duration: 2s;
@@ -72,8 +73,15 @@
 }
 .bubbleInicio{
     position: relative;
+    display: inline-flex;
+    top: 40px;
+    right: 80px;
     animation-name: animationBubble;
     animation-duration: 2s;
+    @media(max-width: 1080px){
+      top: 0px;
+      right: 00px;
+    }
 
 }
 
