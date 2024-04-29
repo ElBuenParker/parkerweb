@@ -122,13 +122,13 @@ justify-content: center;
     width: 60%;
     height: 300px;
     justify-content: center;
-    top: 5vh;
+    top: 9vh;
     left: 400px;
     flex-direction: row;
     flex-wrap: wrap;
     @media(max-width: 1080px){
       width: 10%;
-      left: 30%;
+      left: 150px;
       z-index: 3;
     }
 }
