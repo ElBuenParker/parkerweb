@@ -4,6 +4,7 @@ import ParkerSvg from "../components/ParkerSvg";
 import '../styles/bubble.css'
 import '../styles/portafolio.css'
 import FormsImg from '../img/forms.jpg'
+import VacunaImg from '../img/vacunacion.jpeg'
 import ButtonsImg from '../img/btn.jpg'
 import PortafolioImg from '../img/portafolio.jpg'
 import { Link } from 'react-router-dom';
@@ -81,6 +82,31 @@ const Portafolio = () => {
               </button>
                 </Link>
                 <Link target="_blank" to={"https://elbuenparker.github.io/logins/"}>
+                <button>
+                <span class="button_top" > Demo <ion-icon classname="gh-icon" name="logo-github"></ion-icon></span>
+              </button>
+                </Link>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <div className="ContenidoImg">  
+          <div class="card">
+            <div class="card-inner">
+              <div class="card-front">
+                <p>
+                <img className="Img" src={VacunaImg}></img>
+                </p>
+              </div>
+              <div class="card-back">
+                <p>Maquetación de propuesta para vacunación Jalisco. </p>
+                <Link target="_blank" to={"https://github.com/ElBuenParker/Vacunas-Jalisco"}>
+                <button>
+                <span class="button_top" > Ir al código <ion-icon classname="gh-icon" name="logo-github"></ion-icon></span>
+              </button>
+                </Link>
+                <Link target="_blank" to={"https://elbuenparker.github.io/Vacunas-Jalisco/"}>
                 <button>
                 <span class="button_top" > Demo <ion-icon classname="gh-icon" name="logo-github"></ion-icon></span>
               </button>
