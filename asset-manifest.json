@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/parkerweb/static/css/main.1cee22fd.css",
-    "main.js": "/parkerweb/static/js/main.a3768b7f.js",
+    "main.js": "/parkerweb/static/js/main.793253cb.js",
     "static/js/453.a93513d4.chunk.js": "/parkerweb/static/js/453.a93513d4.chunk.js",
     "static/media/CV.pdf": "/parkerweb/static/media/CV.4f20afdabf0e8a11f213.pdf",
     "static/media/perfil2.jpg": "/parkerweb/static/media/perfil2.e0a6561a22ad750a55ba.jpg",
@@ -9,15 +9,16 @@
     "static/media/forms.jpg": "/parkerweb/static/media/forms.97b5e15252bfb69f6d01.jpg",
     "static/media/gh.jpeg": "/parkerweb/static/media/gh.f6b4b595eb1d23b15d8e.jpeg",
     "static/media/vacunacion.jpeg": "/parkerweb/static/media/vacunacion.2c14325987ea49047a8a.jpeg",
+    "static/media/memorama.jpeg": "/parkerweb/static/media/memorama.d10d2dd7ec919581c4d6.jpeg",
     "static/media/btn.jpg": "/parkerweb/static/media/btn.24954a6f146a7f8fdbdd.jpg",
     "static/media/linkedin.jpeg": "/parkerweb/static/media/linkedin.e776577dea59b6c75cff.jpeg",
     "index.html": "/parkerweb/index.html",
     "main.1cee22fd.css.map": "/parkerweb/static/css/main.1cee22fd.css.map",
-    "main.a3768b7f.js.map": "/parkerweb/static/js/main.a3768b7f.js.map",
+    "main.793253cb.js.map": "/parkerweb/static/js/main.793253cb.js.map",
     "453.a93513d4.chunk.js.map": "/parkerweb/static/js/453.a93513d4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1cee22fd.css",
-    "static/js/main.a3768b7f.js"
+    "static/js/main.793253cb.js"
   ]
 }
