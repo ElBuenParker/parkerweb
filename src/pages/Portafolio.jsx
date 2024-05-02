@@ -75,7 +75,7 @@ const Portafolio = () => {
                 </p>
               </div>
               <div class="card-back">
-                <p>Formularios hechos con css paa uso publico y editables. </p>
+                <p>Formularios hechos con css para uso publico y editables. </p>
                 <Link target="_blank" to={"https://github.com/ElBuenParker/logins"}>
                 <button>
                 <span class="button_top" > Ir al código <ion-icon classname="gh-icon" name="logo-github"></ion-icon></span>
