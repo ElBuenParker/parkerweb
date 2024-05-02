@@ -7,6 +7,7 @@ import FormsImg from '../img/forms.jpg'
 import VacunaImg from '../img/vacunacion.jpeg'
 import ButtonsImg from '../img/btn.jpg'
 import PortafolioImg from '../img/portafolio.jpg'
+import Memorama from '../img/memorama.jpeg'
 import { Link } from 'react-router-dom';
 
 const MainContainer = styled.div`
@@ -154,6 +155,31 @@ const Portafolio = () => {
                 <Link target="_blank" to={"https://github.com/ElBuenParker/parkerweb"}>
                 <button>
                 <span class="button_top" > Ir al código <ion-icon classname="gh-icon" name="logo-github"></ion-icon></span>
+              </button>
+                </Link>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="ContenidoImg">  
+          <div class="card">
+            <div class="card-inner">
+              <div class="card-front">
+                <p>
+                <img className="Img" src={Memorama}></img>
+                </p>
+              </div>
+              <div class="card-back">
+                <p>Juego de cartas Memorama</p>
+                <Link target="_blank" to={"https://github.com/ElBuenParker/memoarama"}>
+                <button>
+                <span class="button_top" > Ir al código <ion-icon classname="gh-icon" name="logo-github"></ion-icon></span>
+              </button>
+                </Link>
+                <Link target="_blank" to={"https://elbuenparker.github.io/memorama/"}>
+                <button>
+                <span class="button_top" > Demo <ion-icon classname="gh-icon" name="logo-github"></ion-icon></span>
               </button>
                 </Link>
                
