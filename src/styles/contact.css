@@ -121,14 +121,14 @@ justify-content: center;
     position: relative;
     width: 60%;
     height: 300px;
-    justify-content: center;
+    justify-content: end;
     top: 9vh;
     left: 400px;
     flex-direction: row;
     flex-wrap: wrap;
     @media(max-width: 1080px){
       width: 10%;
-      left: 150px;
+      left: 200px;
       z-index: 3;
     }
 }
