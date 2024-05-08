@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/parkerweb/static/css/main.5e7834b1.css",
+    "main.css": "/parkerweb/static/css/main.55f93694.css",
     "main.js": "/parkerweb/static/js/main.793253cb.js",
     "static/js/453.a93513d4.chunk.js": "/parkerweb/static/js/453.a93513d4.chunk.js",
     "static/media/CV.pdf": "/parkerweb/static/media/CV.4f20afdabf0e8a11f213.pdf",
@@ -13,12 +13,12 @@
     "static/media/btn.jpg": "/parkerweb/static/media/btn.24954a6f146a7f8fdbdd.jpg",
     "static/media/linkedin.jpeg": "/parkerweb/static/media/linkedin.e776577dea59b6c75cff.jpeg",
     "index.html": "/parkerweb/index.html",
-    "main.5e7834b1.css.map": "/parkerweb/static/css/main.5e7834b1.css.map",
+    "main.55f93694.css.map": "/parkerweb/static/css/main.55f93694.css.map",
     "main.793253cb.js.map": "/parkerweb/static/js/main.793253cb.js.map",
     "453.a93513d4.chunk.js.map": "/parkerweb/static/js/453.a93513d4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e7834b1.css",
+    "static/css/main.55f93694.css",
     "static/js/main.793253cb.js"
   ]
 }
