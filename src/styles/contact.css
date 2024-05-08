@@ -123,7 +123,7 @@ justify-content: center;
     height: 300px;
     justify-content: end;
     top: 9vh;
-    left: 400px;
+    left: 300px;
     flex-direction: row;
     flex-wrap: wrap;
     @media(max-width: 1080px){
